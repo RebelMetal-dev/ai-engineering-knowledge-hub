@@ -1,3 +1,13 @@
-.idea/dataSources.xml
-.idea/dataSources.local.xml
-.idea/dataSources/
+# IDEs & Editor-Dateien
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Build-Ordner & Java-Kompilate
+target/
+build/
+*.class
+
+# Logs und temporäre Dateien
+*.log
