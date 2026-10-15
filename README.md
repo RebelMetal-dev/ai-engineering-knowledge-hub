@@ -5,6 +5,7 @@ This repository serves as a structured, professional knowledge base and portfoli
 
 ## Repository Structure
 
+```text
 ai-engineering-knowledge-hub/
 ├── README.md
 ├── docs/
@@ -14,6 +15,7 @@ ai-engineering-knowledge-hub/
 ├── module-1-foundations/
 ├── module-2-java-ai/
 └── module-3-projects/
+```
 
 ## Roadmap & Core Modules
 
