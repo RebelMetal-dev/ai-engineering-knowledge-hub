@@ -31,4 +31,8 @@ ai-engineering-knowledge-hub/
 - Production-ready applications showcasing autonomous agents and robust AI workflows.
 
 ## Interactive Thought Palace
-This knowledge hub features an integrated interactive mindmap (`docs/visualizations/ai_engineering_mindmap.html`) acting as a dynamic "Thought Palace". It maps all architectural concepts and allows scalable expansion for specialized sub-topics and deep-dive technical notes.
+
+This knowledge hub features an integrated interactive mindmap acting as a dynamic "Thought Palace". It maps all architectural concepts for Java, Spring, and AI Engineering and allows scalable expansion.
+
+🚀 **[Zum interaktiven KI-Gedankenpalast (Live-Webseite)](https://RebelMetal-dev.github.io/ai-engineering-knowledge-hub/)**  
+📄 **[Quellcode der Mindmap anzeigen (`docs/index.html`)](docs/index.html)**

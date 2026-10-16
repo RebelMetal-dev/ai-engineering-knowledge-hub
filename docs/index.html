@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Engineering Knowledge Hub - Gedankenpalast</title>
+   <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    mermaid.initialize({ startOnLoad: true, theme: 'forest' });
+    });
+    </script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f6f9; color: #333; }
+        h1 { color: #2c3e50; text-align: center; }
+        .container { max-width: 900px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .mermaid { text-align: center; margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 AI Engineering Gedankenpalast</h1>
+        <p>Interaktive Wissenslandkarte für Java, Spring & AI Engineering.</p>
+        
+        <div class="mermaid">
+        graph TD;
+            Sub1[Modul 1: Foundations] --> Sub1A[LLM Grundlagen & Tokenisierung];
+            Sub1 --> Sub1B[Embeddings & Vector Spaces];
+            Sub1 --> Sub1C[Prompt Engineering & Structuring];
+
+            Sub2[Modul 2: Java & AI Integration] --> Sub2A[Spring AI & Frameworks];
+            Sub2 --> Sub2B[LangChain4j & API Clients];
+            Sub2 --> Sub2C[Vector Databases & Persistence];
+
+            Sub3[Modul 3: Practical AI Projects] --> Sub3A[RAG System Implementation];
+            Sub3 --> Sub3B[Autonomous Agent Workflows];
+            Sub3 --> Sub3C[Portfolio Application];
+
+            Sub1A --> Sub2A;
+            Sub2A --> Sub3A;
+        </div>
+    </div>
+</body>
+</html>
